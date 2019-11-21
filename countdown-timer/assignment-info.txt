@@ -1,0 +1,7 @@
+- Build a countdown timer - 
+Pick a date and see how much time is left with a dynamically updating counter.
+
+1. Use local storage to store end time.
+2. Time interval and clear for website updates
+3. Date Calculation
+4. Math to get time 
