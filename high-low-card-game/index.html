@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      .hide {
+        display: none;
+      }
+      .gameArea span {
+        font-size: 75px;
+        border: 1px solid #dfdfdf;
+        border-radius: 8px;
+        box-shadow: 2px 2px 2px #000;
+        width: 150px;
+        height: 150px;
+        display: block;
+        text-align: center;
+        padding-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      Score:
+      <span class="score">0</span>
+    </div>
+    <div class="guess hide">
+      <h2>Choose the next possible card</h2>
+
+      <form>
+        <input type="button" name="lower" value="lower" />
+        <input type="button" name="higher" value="higher" />
+      </form>
+    </div>
+
+    <br /><br />
+    <div class="gameArea hide"></div>
+    <br /><br />
+    <div class="message">click to start</div>
+    <br />
+    <button class="start">Start</button>
+
+    <script src="sandbox.js"></script>
+  </body>
+</html>
